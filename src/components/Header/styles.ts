@@ -5,6 +5,11 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-between;
 
+  img {
+    max-width: 10rem;
+    max-height: 20rem;
+  }
+
   nav {
     display: flex;
     gap: 0.5rem;
