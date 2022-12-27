@@ -12,6 +12,7 @@ export const HomeContainer = styled.main`
     flex-direction: column;
     align-items: center;
     gap: 3.5rem;
+    width: 100%;
   }
 `;
 
@@ -42,6 +43,9 @@ export const BaseCountdownButton = styled.button`
 export const StartCountdownButton = styled(BaseCountdownButton)`
   background: ${(props) => props.theme["cyan-500"]};
   color: ${(props) => props.theme["gray-100"]};
+  @media only screen and (min-width: 720px) {
+    max-width: 50vw;
+  }
 
   &:not(:disabled):hover {
     background: ${(props) => props.theme["cyan-700"]};
