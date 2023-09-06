@@ -7,7 +7,7 @@ import logoBruno from "../../assets/logo-bruno.png";
 export function Header() {
   return (
     <HeaderContainer>
-      <img src={logoBruno} alt="" />
+      <img src={logoBruno} alt="" width={100} />
 
       <nav>
         <NavLink to="/" title="Timer">
